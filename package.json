@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "iliauni-anime-club",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/vercel": "^5.0.2",
     "@vercel/analytics": "^1.1.1",
-    "astro": "^3.3.1"
+    "astro": "^3.3.1",
+    "bootstrap": "^5.3.2"
   }
 }
