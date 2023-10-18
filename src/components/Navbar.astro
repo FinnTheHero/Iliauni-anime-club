@@ -1,15 +1,12 @@
 ---
 import "bootstrap/dist/css/bootstrap.min.css";
+const {title} = Astro.props;
 ---
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Iliauni Anime Club</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav d-flex justify-content-center">
+      <ul class="navbar-nav w-100 d-flex justify-content-center">
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
@@ -35,3 +32,34 @@ import "bootstrap/dist/css/bootstrap.min.css";
     </div>
   </div>
 </nav>
+
+<script define:vars={{ title }}> 
+  const links = document.querySelectorAll('.nav-link');
+
+  switch (title) {
+    case "Iliauni anime club":
+      links[0].classList.add('active');
+      break;
+    case "About":
+      links[1].classList.add('active');
+      break;
+    case "History":
+      links[2].classList.add('active');
+      break;
+    case "Join":
+      links[3].classList.add('active');
+      break;
+    case "Contact":
+      links[4].classList.add('active');
+      break;
+    case "Resources":
+      links[5].classList.add('active');
+      break;
+    case "Recommendations":
+      links[6].classList.add('active');
+      break;
+    default:
+      console.log("Title not found.");
+  }
+
+</script>
