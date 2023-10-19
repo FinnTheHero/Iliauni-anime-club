@@ -3,63 +3,38 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const {title} = Astro.props;
 ---
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-body">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-      <ul class="navbar-nav w-100 d-flex justify-content-end">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-end">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
+          <a class="nav-link" href="/about">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/history">Hisotry</a>
+          <a class="nav-link" href="/history">history</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/join">Join</a>
+          <a class="nav-link" href="/contact">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Other
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/resources">Resources</a></li>
+            <li><a class="dropdown-item" href="/recommendations">Recommendations</a></li>
+          </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/resources">resources</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/recommendations">recommendations</a>
+          <a class="nav-link" href="/join">Join Us</a>
         </li>
       </ul>
-      <!-- Left links -->
-    
+    </div>
   </div>
 </nav>
-
-<script define:vars={{ title }}> 
-  const links = document.querySelectorAll('.nav-link');
-
-  switch (title) {
-    case "Iliauni anime club":
-      links[0].classList.add('active');
-      break;
-    case "About":
-      links[1].classList.add('active');
-      break;
-    case "History":
-      links[2].classList.add('active');
-      break;
-    case "Join":
-      links[3].classList.add('active');
-      break;
-    case "Contact":
-      links[4].classList.add('active');
-      break;
-    case "Resources":
-      links[5].classList.add('active');
-      break;
-    case "Recommendations":
-      links[6].classList.add('active');
-      break;
-    default:
-      console.log("Title not found.");
-  }
-
-</script>
