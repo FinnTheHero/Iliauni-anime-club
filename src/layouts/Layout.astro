@@ -1,10 +1,19 @@
 ---
+// Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 
+// Database
+import { run } from '../pages/api/connect.json';
+
+// Components
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import '@fontsource/gamja-flower'
 const { title } = Astro.props;
+
+
+// Establish DataBase connection
+run().catch(console.dir);
 ---
 
 <!doctype html>
