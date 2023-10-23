@@ -29,6 +29,7 @@ const { title } = Astro.props;
 						Other
 					</a>
 				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="/votes">Votes</a></li>
 					<li><a class="dropdown-item" href="/resources">Resources</a></li>
 					<li><a class="dropdown-item" href="/recommendations">Recommendations</a></li>
 				</ul>
@@ -56,6 +57,9 @@ const { title } = Astro.props;
 			break;
 		case "Contact":
 			links[3].classList.add('active');
+			break;
+		case "Vote":
+			links[4].classList.add('active');
 			break;
 		case "Resources":
 			links[4].classList.add('active');

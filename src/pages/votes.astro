@@ -1,0 +1,54 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Vote">
+	<main id="vote">
+        <div class="page-title">
+			<div class="card text-bg-danger border-dark mb-3">
+				<div>
+					<h1 class="card-header text-center text-black">Ongoing club votes</h1>
+				</div>
+			</div>			  
+		</div>
+
+        <div class="card text-black text-bg-danger border-dark text-center mt-5" style="max-width: 90%; max-height: 80%;">
+            <div>
+                <h2 class="card-header">Club Mascot Gender Extravaganza !</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text text-break"> Get ready to cast your vote in the ultimate mascot gender showdown! Our club's iconic mascot is on the verge of a transformation, and we want your opinion to guide the way. It's time to decide the future persona of our beloved mascot - a thrilling choice between two captivating options.</p>
+                <br />
+                <div style="
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                ">
+                    <div class="col-md-4">
+                        <img src="/images/mascot.png" class="img-fluid rounded" alt="clubs mascot">
+                    </div>
+                    <div style="margin: 30px;">
+                        <p class="card-text">Options:</p>
+                        <p class="card-text">Male: The embodiment of strength and charisma.</p>
+                        <p class="card-text">Female: The symbol of grace and elegance.</p>
+                        <p class="card-text">Can't pick one ?</p>
+                        <p class="card-text">Both: If you can't decide who to choose.</p>
+                    </div>
+                </div>
+                <br />
+                <p class="card-text text-break">Your vote matters! Join us in shaping the identity of our mascot and make your mark on our club's history. It's time for you to decide who will represent us on the field and beyond. Cast your vote now and be part of this exciting journey!</p>
+                <a href="https://strawpoll.com/DwyoDaXR0nA" class="btn btn-dark btn-lg">Vote here !</a>
+            </div>
+        </div>
+	</main>
+</Layout>
+
+<style>
+	.page-title {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+</style>

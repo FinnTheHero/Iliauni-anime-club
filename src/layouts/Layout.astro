@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // Components
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+
+// Font - gamja flower
 import '@fontsource/gamja-flower'
 
 const description = "Website for Iliauni Anime Club and other anime enthusiasts.";
@@ -66,8 +68,26 @@ const { title } = Astro.props;
 		justify-content: center;
 		align-items: center;
 	}
+	
+	@media (min-width: 1024px) {
+		#main {
+			/* background-size: 100%; */
+			background-size: auto;
+			/* background-repeat: no-repeat; */
+		}
+	}
 
 	#history {
+		width: 100%;
+		height: auto;
+		padding: 5%;
+	}
+
+	#vote {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		width: 100%;
 		height: auto;
 		padding: 5%;
