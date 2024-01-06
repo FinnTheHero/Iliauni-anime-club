@@ -1,6 +1,8 @@
-# Iliauni Anime Club Website repository 
+# Iliauni Anime Club Website Repository 
 
 ![logo](./public/images/logo.png)
+
+* Now using [Tailcast](https://github.com/matt765/Tailcast.git) as a template
 
 ## Project Structure
 
