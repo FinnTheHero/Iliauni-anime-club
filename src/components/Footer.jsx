@@ -1,7 +1,7 @@
 import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
-import { TwitterIcon } from "../assets/icons/TwitterIcon";
+import { DiscordIcon } from "../assets/icons/DiscordIcon";
 
 const footerData = [
 	{
@@ -67,27 +67,27 @@ export const Footer = () => {
 								</div>
 							</div>
 							<p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-								If you read this go get some help
+								If you are reading this go get some help
 							</p>
 							<div className="w-36 mx-auto lg:mx-0">
 								<a
 									className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-									href="#"
+									href="https://www.facebook.com/profile.php?id=100092313884938"
 								>
 									<FacebookIcon />
 								</a>
 								<a
 									className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-									href="#"
+									href="https://discord.gg/4GyHADSG8M"
 								>
-									<TwitterIcon />
+									<DiscordIcon />
 								</a>
-								<a
+								{/* <a
 									className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
 									href="#"
 								>
 									<InstagramIcon />
-								</a>
+								</a> */}
 							</div>
 						</div>
 						<div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">

@@ -1,0 +1,30 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Navbar } from "../components/Navbar.jsx";
+import { Event1 } from "../components/Event1.jsx";
+import { Event2 } from "../components/Event2.jsx";
+import { FAQ } from "../components/FAQ.jsx";
+import { Divider } from "../components/Divider";
+import { Footer } from "../components/Footer.jsx";
+import { ScrollUpButton } from "../components/ScrollUpButton";
+import { EventsComponent } from "../components/EventsComponent.jsx"
+
+import "../styles/Theme.css";
+import "../styles/Diagonals.css";
+---
+
+<Layout title="Events">
+    <Navbar client:load /> <!-- Done -->
+    
+    <EventsComponent client:load />
+
+    <Divider />
+    <Event1 client:load />
+
+    <Divider />
+    <Event2 client:load />
+    <Divider />
+
+    <Footer /> <!-- Done -->
+    <ScrollUpButton client:load />
+</Layout>
