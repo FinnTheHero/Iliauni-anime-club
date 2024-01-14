@@ -75,7 +75,7 @@ export const Testimonials = () => (
 					{testimonialsData1.map((testimonial, index) => (
 						<div
 							className="w-11/12 sm:w-4/5 md:w-[560px] lg:w-1/3 custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col px-6 py-4"
-							key={`${testimonial.customerName}-${index}`}
+							key={`${index}`}
 						>
 							<div className="flex mb-2">
 								<QuoteIcon />
@@ -105,7 +105,7 @@ export const Testimonials = () => (
 					{testimonialsData2.map((testimonial, index) => (
 						<div
 							className="w-11/12 sm:w-4/5 md:w-[560px] lg:w-1/3 custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col px-6 py-4"
-							key={`${testimonial.customerName}-${index}`}
+							key={`${index}`}
 						>
 							<div className="flex mb-2">
 								<QuoteIcon />

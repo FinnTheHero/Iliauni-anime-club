@@ -28,7 +28,7 @@ const FAQData = [
   },
   {
     id: 4,
-    question: "what benefits do i get from joining ?",
+    question: "What benefits do i get from joining ?",
     answer:
       "We will give you banana and then sacrifice you.",
   }
