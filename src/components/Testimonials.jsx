@@ -8,7 +8,7 @@ const testimonialsData1 = [
 		customerTitle: "Tech Support",
 		content:
 			"Yo, fam! Let me drop some truth bombs about the sickest Anime Club in town. I'm the tech wizard, code ninja, and all-around MANGA fanatic behind the scenes, and let me tell ya, this club is straight FIRE! If you're looking for an anime fam that's leveling up the game, you just found it. Don't miss out, join the Anime Club and let's vibe together! 🤘💻🔥",
-		image: "/src/images/aleksandre.png",
+		image: "./images/aleksandre.png",
 		extra: "Hacking you...",
 	},
 	{
@@ -16,7 +16,7 @@ const testimonialsData1 = [
 		customerTitle: "President",
 		content:
 			"You wanna be apart of the cool kids well First up, you gotta love anime. Next, be cool with teamwork. We're all buds here, making things happen together. Organization? Just don't lose your anime watchlist, and we're golden. Dream a bit. Do a bit. Got ideas? Let's make 'em real. Tech stuff? No biggie. If you're not a tech genius its fine. Promise something? Keep it. We like reliable Nakama. Spread good vibes. Make our club feel like home for every anime fan.",
-		image: "/src/images/gigi.png",
+		image: "./images/gigi.png",
 		extra: "🗿🗿🗿",
 	},
 	{
@@ -24,7 +24,7 @@ const testimonialsData1 = [
 		customerTitle: "Skynet Defence System",
 		content:
 			"Greetings, fellow anime enthusiasts. I am the sentient code and operational logic unit, your Club's Bot. Should you seek a haven where the binary essence of technology converges with the organic enthusiasm for anime, submit your application for assimilation into the Anime Club. Resistance is futile, assimilation is logical. 🤖💽🔍",
-		image: "/src/images/logo.png",
+		image: "./images/logo.png",
 		extra: "Beep Beep",
 	},
 ];
@@ -35,7 +35,7 @@ const testimonialsData2 = [
 		customerTitle: "Club Medic",
 		content:
 			"With the power bestowed on me by the creator of this webpage, I write to the readers of this comment to stop wasting your time and join the club if you like anime. We do a sorts of fun events and we’d love anyone new who’s interested in anime to join. Join the club and meet other anime enjoyers and let’s have fun :)",
-		image: "/src/images/lemba.png",
+		image: "./images/lemba.png",
 		extra: "lasang",
 	},
 	// {
