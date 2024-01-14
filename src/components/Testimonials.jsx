@@ -34,17 +34,18 @@ const testimonialsData2 = [
 		customerName: "Lembasana Maibam",
 		customerTitle: "Club Medic",
 		content:
-			"With the power bestowed on me by the creator of this webpage, I write to the readers of this comment to stop wasting your time and join the club if you like anime. We do a sorts of fun events and we’d love anyone new who’s interested in anime to join. Join the club and meet other anime enjoyers and let’s have fun :)",
+			"With the power bestowed on me by the creator of this webpage, I write to the readers of this comment to stop wasting your time and join the club if you like anime. We do a sorts of fun events and we’d love anyone new who’s interested in anime to join. Join the club and meet other anime enjoyers and let’s have fun! 😃",
 		image: "./images/lemba.png",
 		extra: "lasang",
 	},
-	// {
-	// 	customerName: "Gigi Erkomaishvili",
-	// 	customerTitle: "President of Iliauni Anime Club",
-	// 	content:
-	// 		"You wanna be apart of the cool kids well First up, you gotta love anime. Next, be cool with teamwork. We're all buds here, making things happen together. Organization? Just don't lose your anime watchlist, and we're golden. Dream a bit. Do a bit. Got ideas? Let's make 'em real. Tech stuff? No biggie. If you're not a tech genius its fine. Promise something? Keep it. We like reliable Nakama. Spread good vibes. Make our club feel like home for every anime fan.",
-	// 	image: testimonial1,
-	// },
+	{
+		customerName: "Nino Darsania",
+		customerTitle: "Club Psychologist",
+		content:
+			"Anime Club aims to ease and diversify the tedious learning process. Here you will be able to freely chat with members about common interests, receive and recommend your favorite anime or manga, and discuss it. You will make very strange, but cool friends. To those who wish to join, we are waiting for you and promise you an unforgettable adventure. 😄",
+		image: "./images/nino.png",
+		extra: "lasang owner",
+	},
 	// {
 	// 	customerName: "Clubs Bot",
 	// 	customerTitle: "Skynet Defence System",
