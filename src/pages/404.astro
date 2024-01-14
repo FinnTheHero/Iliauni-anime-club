@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Fof } from "../components/404.jsx";
+import { Navbar } from "../components/Navbar.jsx";
+import { Footer } from "../components/Footer.jsx";
+import { ScrollUpButton } from "../components/ScrollUpButton";
+
+import "../styles/Theme.css";
+import "../styles/Diagonals.css";
+
+---
+
+<Layout title="Iliauni Anime Club">
+    <Navbar client:load />
+    <Fof client:load />
+    <Footer />
+    <ScrollUpButton client:load />
+</Layout>
