@@ -49,14 +49,14 @@ export const Event1 = () => {
 						<div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
 							<div className="mb-4 py-3 pl-3 pr-2 rounded">
 								<img
-									src="./images/art1.jpg"
+									src="./images/art1.png"
 									alt="f1"
 									className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
 								/>
 							</div>
 							<div className="py-3 pl-3 pr-2 rounded ">
 								<img
-									src="./images/art2.jpg"
+									src="./images/art2.png"
 									alt="f2"
 									className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
 								/>
@@ -65,14 +65,14 @@ export const Event1 = () => {
 						<div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
 							<div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
 								<img
-									src="./images/art3.jpg"
+									src="./images/art3.png"
 									alt="f3"
 									className="rounded-xl  custom-border-gray"
 								/>
 							</div>
 							<div className="py-3 pl-3 pr-2 rounded-lg ">
 								<img
-									src="./images/art4.jpg"
+									src="./images/art4.png"
 									alt="f4"
 									className="rounded-xl  custom-border-gray"
 								/>
