@@ -3,10 +3,10 @@ dist/
 
 # generated types
 .astro/
+.vercel/
 
 # dependencies
 node_modules/
-.vercel/
 
 # logs
 npm-debug.log*
