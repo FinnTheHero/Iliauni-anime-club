@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 export const Fof = () => {
     return (
         <section
-        className="w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
-        id="home"
+        className="w-screen  flex justify-center items-center bg-customDarkBg1 hero-bg-gradient"
+        id="404"
         >
-            <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-16 md:pt-16 lg:pt-20 text-center">
+            <div className="w-full h-[100vh] flex flex-col justify-center items-center text-center">
                 <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 >
-                    <div className="text-customSecondary text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">Something went wrong...</div>
+                    <div className="text-customSecondary text-sm sm:text-base mb-6 sm:mt-32 mt-16 font-bold">Something went wrong...</div>
                 </motion.div>
                 
                 <motion.div
@@ -50,7 +50,7 @@ export const Fof = () => {
                         </div>
                     </div>
                 </motion.div>
-
+{/* 
                 <div className="relative w-screen flex justify-center ">
                     <div className="custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block">
                         <svg
@@ -66,7 +66,7 @@ export const Fof = () => {
                         />
                         </svg>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     );

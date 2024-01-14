@@ -9,7 +9,7 @@ const testimonialsData1 = [
 		content:
 			"Yo, fam! Let me drop some truth bombs about the sickest Anime Club in town. I'm the tech wizard, code ninja, and all-around MANGA fanatic behind the scenes, and let me tell ya, this club is straight FIRE! If you're looking for an anime fam that's leveling up the game, you just found it. Don't miss out, join the Anime Club and let's vibe together! 🤘💻🔥",
 		image: "./images/aleksandre.png",
-		extra: "Hacking you...",
+		extra: "I made this website 🧑‍💻🤓",
 	},
 	{
 		customerName: "Giorgi Erkomaishvili",
@@ -25,7 +25,7 @@ const testimonialsData1 = [
 		content:
 			"Greetings, fellow anime enthusiasts. I am the sentient code and operational logic unit, your Club's Bot. Should you seek a haven where the binary essence of technology converges with the organic enthusiasm for anime, submit your application for assimilation into the Anime Club. Resistance is futile, assimilation is logical. 🤖💽🔍",
 		image: "./images/logo.png",
-		extra: "Beep Beep",
+		extra: "Beep Beep 🤖",
 	},
 ];
 
