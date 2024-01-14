@@ -19,7 +19,7 @@ export const Event1 = () => {
 						<div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
 							<span className="custom-block-subtitle">22 / 12 / 2023</span>
 							<h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-								Art
+								Art exhibition
 							</h2>
 							<p className="mb-10 text-customGrayText leading-loose">
 							On December 22, an exhibition on the topic of anime was held in the student space of the E building of Iliauni,

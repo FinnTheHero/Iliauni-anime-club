@@ -2,6 +2,7 @@ import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { DiscordIcon } from "../assets/icons/DiscordIcon";
+import { GmailIcon } from "../assets/icons/GmailIcon";
 
 const footerData = [
 	{
@@ -81,6 +82,12 @@ export const Footer = () => {
 									href="https://discord.gg/4GyHADSG8M"
 								>
 									<DiscordIcon />
+								</a>
+								<a
+									className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
+									href="mailto:animelovers@iliauni.edu.ge"
+								>
+									<GmailIcon />
 								</a>
 								{/* <a
 									className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
