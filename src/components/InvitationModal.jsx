@@ -40,7 +40,7 @@ export const InvitationModal = ({ setIsOpen }) => (
 								</li>
 								<li className="mb-4 flex">
 									<CheckArrowIcon />
-									<span>Fuck Gege</span>
+									<span>DEEZ NUTS</span>
 								</li>
 							</ul>
 						</div>
