@@ -11,7 +11,7 @@ export interface Props {
 }
 
 const description = "Website for Iliauni Anime Club and other Weebs.";
-const url = "https://iliauni-anime-club.vercel.app"
+const url = "https://iliauni-anime-club.vercel.app/"
 const { title } = Astro.props;
 ---
 
@@ -25,11 +25,11 @@ const { title } = Astro.props;
 		<meta property="og:description" content={description} />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content={url} />
-		<meta property="og:image" content={url + "/images/yuki.png"} />
+		<meta property="og:image" content={url + "images/yuki.png"} />
 		<meta property="twitter:title" content={title} />
 		<meta property="twitter:description" content={description} />
 		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:image" content={url + "/images/yuki.png"} />
+		<meta property="twitter:image" content={url + "images/yuki.png"} />
 		<meta name="generator" content={Astro.generator} />
 		
 		<link rel="icon" type="image/svg+xml" href="/images/logo.png" />
