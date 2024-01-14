@@ -22,14 +22,14 @@ export const Event2 = () => (
 						</div> */}
 						<div className="mb-4 py-3 md:pl-3 md:pr-20 lg:pr-12 rounded">
 							<img
-								src="./images/www1.jpg"
+								src="./images/www1.png"
 								alt="f1"
 								className="rounded-xl  custom-border-gray"
 							/>
 						</div>
 						<div className="py-3 md:pl-20 lg:pl-12 md:pr-2 rounded ">
 							<img
-								src="./images/www2.jpg"
+								src="./images/www2.png"
 								alt="f2"
 								className="rounded-xl  custom-border-gray"
 							/>
