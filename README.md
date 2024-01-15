@@ -1,4 +1,4 @@
-# Iliauni Anime Club Website
+# Iliauni Anime Club
 
 <p style="font-size: 20px;">
 Welcome to the Iliauni Anime Club's official website repository!
