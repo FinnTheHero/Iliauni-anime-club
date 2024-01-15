@@ -1,25 +1,19 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-import { AboutUsComponent } from "../components/AboutUs.jsx";
 import { Navbar } from "../components/Navbar.jsx";
 import { Footer } from "../components/Footer.jsx";
 import { ScrollUpButton } from "../components/ScrollUpButton";
-import { Testimonials } from "../components/Testimonials.jsx";
-import { History } from "../components/History.jsx";
+import { GalleryComponent } from "../components/Gallery.jsx";
 
 import "../styles/Theme.css";
 import "../styles/Diagonals.css";
 ---
 
-<Layout title="About Us">
+<Layout title="Gallery">
 	<Navbar client:load />
-	<AboutUsComponent client:load />
+    <GalleryComponent client:load />
 
-    <Testimonials client:load />
-    
-    <History client:load />
-    
 	<Footer />
 	<ScrollUpButton client:load />
 </Layout>

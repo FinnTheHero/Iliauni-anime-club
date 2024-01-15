@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
-import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
-export const AboutUsComponent = () => {
+export const GalleryComponent = () => {
 
     return (
         <section
@@ -23,8 +22,8 @@ export const AboutUsComponent = () => {
                 transition={{ duration: 0.5, delay: 0.05 }}
                 >
                     <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
-                        <span className="inline md:hidden">About Us</span>
-                        <span className="hidden md:inline">About Us</span>
+                        <span className="inline md:hidden">Gallery</span>
+                        <span className="hidden md:inline">Gallery</span>
                     </div>
                 </motion.div>
 
@@ -34,7 +33,7 @@ export const AboutUsComponent = () => {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 >
                     <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 mb-12 px-12 sm:px-48 ">
-                        Some information about Iliauni Anime Club
+                        Art made by our members
                     </div>
                 </motion.div>
 
