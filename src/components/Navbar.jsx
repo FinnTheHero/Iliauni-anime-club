@@ -7,7 +7,7 @@ import { GithubIcon } from "../assets/icons/GithubIcon";
 const navbarLinks = [
 	{ label: "Home", href: "/", ariaLabel: "Home" },
 	{ label: "Events", href: "/events", ariaLabel: "Events" },
-	{ label: "About Us", href: "/about-Us", ariaLabel: "About Us" },
+	{ label: "About Us", href: "/about-us", ariaLabel: "About Us" },
 	{ label: "Feedback", href: "/feedback", ariaLabel: "Feedback" },
 	{ label: "FAQ", href: "/#FAQ", ariaLabel: "FAQ" },
 ];

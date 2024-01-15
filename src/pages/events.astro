@@ -6,14 +6,14 @@ import { Event2 } from "../components/Event2.jsx";
 import { Divider } from "../components/Divider";
 import { Footer } from "../components/Footer.jsx";
 import { ScrollUpButton } from "../components/ScrollUpButton";
-import { EventsComponent } from "../components/EventsComponent.jsx"
+import { EventsComponent } from "../components/Events.jsx"
 
 import "../styles/Theme.css";
 import "../styles/Diagonals.css";
 ---
 
 <Layout title="Events">
-    <Navbar client:load /> <!-- Done -->
+    <Navbar client:load />
     
     <EventsComponent client:load />
 
@@ -22,8 +22,8 @@ import "../styles/Diagonals.css";
 
     <Divider />
     <Event2 client:load />
+    
     <Divider />
-
-    <Footer /> <!-- Done -->
+    <Footer />
     <ScrollUpButton client:load />
 </Layout>
