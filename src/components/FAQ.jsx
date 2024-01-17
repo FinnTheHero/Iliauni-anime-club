@@ -4,33 +4,33 @@ import { motion } from "framer-motion";
 const FAQData = [
 	{
 		id: 0,
-		question: "Is this a Cult ?",
+		question: "What is the purpose of this website ?",
 		answer:
-			"Yes, yes it is.",
+			"The Iliauni anime club website is for staying updated on events, connecting with us through applications, and discovering the exciting future plans of the club.",
 	},
 	{
 		id: 1,
-		question: "Can i sacrifice my baby ?",
+		question: "How can I become a member of the Iliauni Anime Club?",
 		answer:
-			"Only if you are a member of the cult and baby is a virgin.",
+			"Becoming a member of the Iliauni anime club is easy! Simply navigate to our website's 'Get Started' section, where you'll find all the details and applications you need to join us.",
 	},
 	{
 		id: 2,
-		question: "Can i leave after joining ?",
+		question: "What types of anime-related events and activities does Iliauni Anime Club organize?",
 		answer:
-			"Of course Not.",
+			"Iliauni anime club hosts a variety of exciting events and activities for anime enthusiasts. From engaging screenings and conventions to themed gatherings, our club offers a diverse range of anime-related experiences!",
 	},
 	{
 		id: 3,
-		question: "Can i join if i am not a virgin ?",
+		question: "Is membership in Iliauni Anime Club limited to students from a specific department or major?",
 		answer:
-			"Yes you can, but you will be sacrificed.",
+			"No, membership in the club is open to all students, regardless of their department or major.",
 	},
 	{
 		id: 4,
-		question: "What benefits do i get from joining ?",
+		question: "Are there leadership opportunities within Iliauni Anime Club?",
 		answer:
-			"We will give you banana and then sacrifice you.",
+			"Absolutely! Your contributions within the club won't go unnoticed. We actively encourage members to get involved and stand out through their passion and dedication. Outstanding individuals will be scouted for leadership positions.",
 	}
 ];
 
