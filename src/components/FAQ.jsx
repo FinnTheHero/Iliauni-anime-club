@@ -51,7 +51,7 @@ export const FAQ = () => (
 					<h2 className="mb-16 custom-block-big-title text-center">
 						Frequently Asked Questions
 					</h2>
-					<div className="mb-11 flex flex-wrap -m-1">
+					<div className="m-11 flex flex-wrap -m-1">
 						{FAQData.map((item, index) => (
 							<div className="w-full p-1">
 								<FAQBox
