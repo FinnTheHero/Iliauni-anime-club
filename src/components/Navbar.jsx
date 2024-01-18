@@ -69,7 +69,7 @@ export const Navbar = () => {
 							aria-label="source code"
 						>
 							<GithubIcon />
-							<span className="pt-px">Source code</span>
+							<span className="pt-px">Source Code</span>
 						</a>
 					</div>
 				</motion.div>
