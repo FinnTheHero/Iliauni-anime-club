@@ -24,7 +24,7 @@ const testimonialsData1 = [
 		customerTitle: "Skynet Defence System",
 		content:
 			"Greetings, fellow anime enthusiasts. I am the sentient code and operational logic unit, your Club's Bot. Should you seek a haven where the binary essence of technology converges with the organic enthusiasm for anime, submit your application for assimilation into the Anime Club. Resistance is futile, assimilation is logical. 🤖💽🔍",
-		image: "./images/logo.png",
+		image: "./images/logo.svg",
 		extra: "Beep Beep 🤖",
 	},
 ];

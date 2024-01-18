@@ -1,6 +1,6 @@
 import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
+import { ClubLogo } from "../assets/logos/ClubLogo";
 import { DiscordIcon } from "../assets/icons/DiscordIcon";
 import { GmailIcon } from "../assets/icons/GmailIcon";
 
@@ -61,7 +61,7 @@ export const Footer = () => {
 						<div className="w-full lg:w-1/3 mb-16 lg:mb-0">
 							<div className="flex justify-center lg:justify-start items-center grow basis-0">
 								<div className="text-white mr-2 text-6xl">
-									<TailcastLogo />
+									<ClubLogo />
 								</div>
 								<div className="text-white font-['Inter'] font-bold text-xl">
 									Iliauni Anime Club
