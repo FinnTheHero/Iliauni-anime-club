@@ -12,7 +12,7 @@
   height: 200px;
 }
 .hero-title-gradient {
-  background: -webkit-linear-gradient(white, #b4add1);
+  background: -webkit-linear-gradient(white, #d1b4b4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
