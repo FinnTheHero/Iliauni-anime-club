@@ -118,7 +118,7 @@ export const Footer = () => {
 					</div>
 					
 					<p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-						Website and it's logo belongs to Iliauni Anime Club
+						Website, logo and images belong to Iliauni Anime Club
 					</p>
 				</div>
 			</div>
