@@ -7,46 +7,32 @@ import { GmailIcon } from "../assets/icons/GmailIcon";
 const footerData = [
 	{
 		title: "Cool Stuff",
-		items: [{
-			name: "About Us",
-			link: "/about-us"
-		},{
-			name: "News and Stories",
-			link: "/news-and-stories"
-		},{
-			name: "Roadmap",
-			link: "/roadmap"
-		}],
-	},
-	{
-
-		title: "Interesting Info",
 		items: [
 			{
-				name: "Team",
-				link: "/team"
+				name: "Contact Us",
+				link: "/contact-us"
 			},
 			{
-				name: "Journeys",
-				link: "/journeys"
+				name: "History",
+				link: "/about-us#history"
 			},
-		]
+			{
+				name: "Jobs",
+				link: "/jobs"
+			},
+		],
 	},
 	{
-		title: "Team",
+		title: "About Us",
 		items: [
 			{
 				name: "About Us",
 				link: "/about-us"
 			},
 			{
-				name: "Jobs",
-				link: "/jobs"
+				name: "Team",
+				link: "/team"
 			},
-			{
-				name: "Contact Us",
-				link: "/contact-us"
-			}
 		]
 
 	},
@@ -97,9 +83,9 @@ export const Footer = () => {
 								</a> */}
 							</div>
 						</div>
-						<div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
+						<div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-around">
 							<div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
-								<h3 className="mb-6 text-2xl font-bold text-white">Cool Stuff</h3>
+								<h3 className="mb-6 text-2xl font-bold text-white">{footerData[0].title}</h3>
 								<ul>
 									{footerData[0].items.map((item, i) => (
 										<li key={i} className="mb-4">
@@ -113,10 +99,8 @@ export const Footer = () => {
 									))}
 								</ul>
 							</div>
-							<div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
-								<h3 className="mb-6 text-2xl font-bold text-white">
-									Interesting Info
-								</h3>
+							<div className="w-full md:w-1/3 lg:w-auto">
+								<h3 className="mb-6 text-2xl font-bold text-white">{footerData[1].title}</h3>
 								<ul>
 									{footerData[1].items.map((item, i) => (
 										<li key={i} className="mb-4">
@@ -130,23 +114,9 @@ export const Footer = () => {
 									))}
 								</ul>
 							</div>
-							<div className="w-full md:w-1/3 lg:w-auto">
-								<h3 className="mb-6 text-2xl font-bold text-white">Team</h3>
-								<ul>
-									{footerData[2].items.map((item, i) => (
-										<li key={i} className="mb-4">
-											<a
-												className="text-gray-400 hover:text-gray-300"
-												href={item.link}
-											>
-												{item.name}
-											</a>
-										</li>
-									))}
-								</ul>
-							</div>
 						</div>
 					</div>
+					
 					<p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
 						Website and it's logo belongs to Iliauni Anime Club
 					</p>

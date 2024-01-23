@@ -2,7 +2,9 @@ import { motion } from "framer-motion";
 
 export const History = () => {
     return (
-        <section>
+        <section
+            id="history"
+        >
             <h2 className="mt-12 mb-12 text-4xl lg:text-5xl custom-block-big-title text-center">
                 The History
             </h2>
