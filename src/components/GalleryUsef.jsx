@@ -7,7 +7,7 @@ export const GalleryUsef = () => {
 			id="features"
 		>
 			<h2 className="mt-12 mb-12 text-4xl lg:text-5xl custom-block-big-title text-center">
-                By Usef
+                By Yousef Maher
             </h2>
 			<motion.div
 				initial={{ opacity: 0 }}
