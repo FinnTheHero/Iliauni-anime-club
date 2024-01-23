@@ -3,7 +3,10 @@ import { motion } from "framer-motion";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Event2 = () => (
-	<section className="w-full bg-customDarkBg2 mt-12 sm:mt-20 mb-10 lg:my-20 pt-4">
+	<section 
+		className="w-full bg-customDarkBg2 mt-12 sm:mt-20 mb-10 lg:my-20 pt-4"
+		id="events2"
+	>
 		<motion.div
 			initial={{ opacity: 0 }}
 			whileInView={{ opacity: 1 }}

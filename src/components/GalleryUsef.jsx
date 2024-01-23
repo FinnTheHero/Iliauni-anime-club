@@ -6,9 +6,10 @@ export const GalleryUsef = () => {
 			className="w-full bg-customDarkBg2 mt-20 mb-8 sm:mt-16 sm:mb-16 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
 			id="features"
 		>
-			<h2 className="mt-12 mb-12 text-4xl lg:text-5xl custom-block-big-title text-center">
-                By Yousef Maher
-            </h2>
+			<div className="flex items-center justify-center mt-12 mb-12">
+				<h2 className="text-4xl lg:text-5xl custom-block-big-title text-center mr-6">By Yousef Maher</h2>
+				<img src="./images/usef.png" alt="usef" width="50px" height="45px" className="hidden sm:inline-block"/>
+			</div>
 			<motion.div
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}

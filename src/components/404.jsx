@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 export const Fof = () => {
     return (
         <section
-        className="w-screen  flex justify-center items-center bg-customDarkBg1 hero-bg-gradient"
-        id="404"
+            className="w-screen  flex justify-center items-center bg-customDarkBg1 hero-bg-gradient"
+            id="404"
         >
             <div className="w-full h-[100vh] flex flex-col justify-center items-center text-center">
                 <motion.div
