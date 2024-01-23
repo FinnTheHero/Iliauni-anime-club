@@ -5,6 +5,7 @@ import { Navbar } from "../components/Navbar.jsx";
 import { Footer } from "../components/Footer.jsx";
 import { ScrollUpButton } from "../components/ScrollUpButton";
 import { GalleryComponent } from "../components/Gallery.jsx";
+import { GalleryUsef } from "../components/GalleryUsef";
 
 import "../styles/Theme.css";
 import "../styles/Diagonals.css";
@@ -13,6 +14,8 @@ import "../styles/Diagonals.css";
 <Layout title="Gallery">
 	<Navbar client:load />
     <GalleryComponent client:load />
+
+	<GalleryUsef client:load />
 
 	<Footer />
 	<ScrollUpButton client:load />
