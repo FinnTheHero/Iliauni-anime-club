@@ -2,26 +2,26 @@
 
 <p style="font-size: 20px;">
 Welcome to the Iliauni Anime Club's official website repository!
-This repository contains the code for our club's website, featuring information about events, FAQs, member testimonials, and signup links.</p>
+This repository contains the code for our club's website, featuring information about events, FAQs, member testimonials, and signup links.
+</p>
 
 ![logo](./public/images/logo.png)
 
-
 # License
-This project is licensed under the [MIT License](LICENSE).
 
+This project is licensed under the [MIT License](LICENSE).
 
 # Contact
 
 If you have any questions or suggestions, feel free to reach out to us at
-* [Discord](https://discord.gg/4GyHADSG8M)
-* [Facebook](https://www.facebook.com/profile.php?id=100092313884938)
-* [Mail](mailto:animelovers@iliauni.edu.ge)
 
+- [Discord](https://discord.gg/4GyHADSG8M)
+- [Facebook](https://www.facebook.com/profile.php?id=100092313884938)
+- [Mail](mailto:animelovers@iliauni.edu.ge)
 
 # Project Structure
 
-* Now using [Tailcast](https://github.com/matt765/Tailcast.git) as a template
+- Now using [Tailcast](https://github.com/matt765/Tailcast.git) as a template
 
 ```sh
 /
@@ -44,6 +44,7 @@ Components go into `src/components/`.
 Images go into `public/images` directory.
 
 ## Commands
+
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
 | `npm install`             | Installs dependencies                            |
