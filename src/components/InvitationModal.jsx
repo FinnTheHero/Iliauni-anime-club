@@ -29,7 +29,20 @@ export const InvitationModal = ({ setIsOpen }) => (
                                 Now
                             </h2>
 
-                            <ul className="mb-6 text-white mt-12">
+                            <div className="w-1/2 sm:w-3/5 p-2 mt-8 mb-0">
+                                <button
+                                    className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#f37272] transition ease-in-out duration-200"
+                                    type="button"
+                                    onClick={() =>
+                                        (window.location.href =
+                                            "https://forms.gle/nG7m8ySLLvVtVJ8u6")
+                                    }
+                                >
+                                    Register
+                                </button>
+                            </div>
+
+                            <ul className="mb-6 text-white mt-8">
                                 <li className="mb-4 flex">
                                     <CheckArrowIcon />
                                     <span>Active & welcoming</span>
@@ -44,6 +57,7 @@ export const InvitationModal = ({ setIsOpen }) => (
                                 </li>
                             </ul>
                         </div>
+
                         <div className="w-full lg:w-1/2 flex items-center flex-col justify-center pt-24 sm:pt-0">
                             <div className="flex lg:hidden justify-start items-center grow basis-0 mb-8 pr-6">
                                 <div className="text-white mr-2 text-8xl">

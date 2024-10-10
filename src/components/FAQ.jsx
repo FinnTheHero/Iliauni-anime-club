@@ -46,7 +46,7 @@ export const FAQ = () => (
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
         >
-            <div className="relative z-10 container px-2 sm:px-8 lg:px-4 mx-auto w-11/12 sm:w-full">
+            <div className="relative z-10 container mx-1 w-full">
                 <div className="md:max-w-4xl mx-auto">
                     <p className="mb-7 custom-block-subtitle text-center">
                         Have any questions?
@@ -54,7 +54,7 @@ export const FAQ = () => (
                     <h2 className="mb-16 custom-block-big-title text-center">
                         Frequently Asked Questions
                     </h2>
-                    <div className="m-12 flex flex-wrap">
+                    <div className="m-6 flex flex-wrap">
                         {FAQData.map((item, index) => (
                             <div className="w-full p-1">
                                 <FAQBox

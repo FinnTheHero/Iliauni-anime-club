@@ -72,7 +72,7 @@ export const Navbar = () => {
                             <span className="pt-px">Source Code</span>
                         </a>
                     </div> */}
-                    <div className="flex w-50 flex-col gap-2 sm:flex-row justify-center">
+                    <div className="grow basis-0 justify-end hidden lg:flex">
                         <div
                             className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
                             onClick={() => setIsModalOpen(true)}
@@ -111,14 +111,12 @@ export const Navbar = () => {
                                     {label}
                                 </a>
                             ))}
-                            <a
-                                className="text-white custom-border-gray rounded-xl bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-                                href="https://github.com/FinnTheHero/Iliauni-anime-club.git"
-                                target="_blank"
+                            <div
+                                className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
+                                onClick={() => setIsModalOpen(true)}
                             >
-                                <GithubIcon />
-                                Source code
-                            </a>
+                                Join Us!
+                            </div>
                         </div>
                     </motion.div>
                 )}
